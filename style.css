@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'montserrat';
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    padding: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+}
+
+.navbar-item{
+    transition: .3s ease;
+}
+
+.navbar-item a{
+    color: #243a73;
+    text-decoration: none;
+    transition: .3s ease;
+    font-weight: 700;
+}
+
+.navbar-item a:hover{
+    color:#42ac59;
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+
+.kenalanyuk {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 940px;
+    align-items: center;
+}
+
+.photo-container{
+    margin-top: 180px;
+    padding-top: 50px;
+}
+
+.muka {
+    width: 500px;
+}
+
+.watermark{
+    width: 170px;
+}
+
+.pun10everyone{
+    font-size:60px ;
+    font-style: italic;
+    font-weight: 800;
+    color: #243a73;
+}
+
+.aboutme{
+    font-size: 30px;
+    color: #243a73;
+    font-weight: 600;
+}
+
+.nicoleab{
+    color: #42ac59;
+    font-size:35px;
+    font-style: italic;
+    font-weight: 70p
+    
+}
+
+.deskripsi{
+    font: size 30px;
+    color: #243a73;
+    font-weight: 600;
+}
+
+.pantun{
+    font-weight: 800;
+    color: #42ac59;
+    font-style: italic;
+    font-size: larger;
+}
+
+.text-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-box{
+    width: fit-content;
+    height: fit-content;
+}
+
+.photo-gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.lappy{
+    width: 1400px;
+    height: 750px;
+}
+
+.designer{
+    position:relative;
+    left: 1060px;
+    top: -680px;
+}
+
+.panah{
+    position:relative;
+    left: -280px;
+    top: -800px;
+}
+
+.silaturahmibolehkok{
+    margin-top: 290px;
+    height: 150px;
+    margin-left: -65px;
+}
+
+.contact-1{
+    position: relative; 
+    left: 410px; 
+    top: 230px; 
+    z-index: 5; 
+    font-size: 25px; 
+    width: 30%;
+    color: #243a73;
+}
+
+.contact-2{
+    position: relative; 
+    left: 780px; 
+    top: 310px; 
+    z-index: 5; 
+    font-size: 25px; 
+    width: 30%;
+    color: #243a73;
+
+}
+
+.socmed-link{
+    text-decoration: none;
+    color: #42ac59;
+}
+
+
+@media only screen and (max-width: 580px){
+    .kenalanyuk{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 100px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        width: unset;
+    }
+
+    .navbar-item{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    body{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .lappy{
+        width: 473px;
+        height: 250px;
+    }
+
+    .designer{
+        display: none;
+    }
+
+    .panah{
+        display: none;
+    }
+    .contact-1{
+        position: relative; 
+        left: 140px; 
+        top: 110px; 
+        z-index: 5; 
+        font-size: 14px; 
+        width: 30%
+    }
+    
+    .contact-2{
+        position: relative; 
+        left: 240px; 
+        top: 120px; 
+        z-index: 5; 
+        font-size: 14px; 
+        width: 30%
+    }
+
+    .silaturahmibolehkok{
+        margin-left: -53px;
+    }
+}
